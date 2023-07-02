@@ -5,7 +5,7 @@ EXPOSE 443/tcp
 
 WORKDIR /app
 
-COPY . /
+COPY . /app
 
 RUN pip install -r requirements.txt
 
