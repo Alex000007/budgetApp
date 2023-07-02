@@ -3,8 +3,8 @@ FROM python:latest
 
 WORKDIR /app
 
-COPY main.py ./
+COPY . /
 
-RUN pip install -r ./requirements.txt
+RUN pip install -r requirements.txt
 
 CMD ["python" "./main.py"]
