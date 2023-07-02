@@ -1,6 +1,8 @@
 # comment
 FROM python:latest
 
+EXPOSE 8080
+
 WORKDIR /app
 
 COPY . /
