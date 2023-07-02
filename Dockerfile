@@ -1,7 +1,7 @@
 # comment
 FROM python:latest
 
-EXPOSE 8080/tcp
+# EXPOSE 8080/tcp
 
 WORKDIR /app
 
