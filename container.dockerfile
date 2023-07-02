@@ -1,8 +1,8 @@
 FROM python:3.11.3
 
-WORKDIR /budget_app
+WORKDIR /
 
-COPY . /budget_app
+COPY . /
 
 RUN pip install -r requirements.txt
 
