@@ -1,7 +1,7 @@
 # comment
 FROM python:latest
 
-EXPOSE 8080:8080
+EXPOSE 8080
 
 WORKDIR /app
 
