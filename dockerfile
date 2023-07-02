@@ -2,8 +2,8 @@ FROM python:latest
 
 WORKDIR /app
 
-COPY . /app
+COPY test.py ./
 
-RUN pip install -r requirements.txt
+RUN pip install -r ./app/requirements.txt
 
-CMD ["python" "./main.py"]
+CMD ["python" "./app/main.py"]
