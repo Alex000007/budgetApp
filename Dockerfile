@@ -3,7 +3,7 @@ FROM python:latest
 
 WORKDIR /app
 
-COPY test.py ./
+COPY main.py ./
 
 RUN pip install -r requirements.txt
 
