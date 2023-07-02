@@ -1,3 +1,4 @@
+# comment
 FROM python:latest
 
 WORKDIR /app
